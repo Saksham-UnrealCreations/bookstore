@@ -50,6 +50,12 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<properties>
+		<sonar.host.url>
+		<sonar.host.login>sqa_050615d3bcf9be6acc862e77143d342f0640e8cb<sonar.host.login>
+	</properties>	
+	
 	<dependencies>
 
 		<dependency>
@@ -72,4 +78,5 @@
 			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
+
 </project>
