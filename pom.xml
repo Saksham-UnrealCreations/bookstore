@@ -77,16 +77,19 @@
   <distributionManagement>
     <repository>
       <id>nexus</id>
+	  <name>onlinebookstore-release</name>
       <url>http://54.160.184.39:8081/repository/onlinebookstore-release/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
+	  <name>onlinebookstore-snapshot</name>
       <url>http://54.160.184.39:8081/repository/onlinebookstore-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 		
 
 </project>
+
 
 
 
