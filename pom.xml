@@ -73,7 +73,7 @@
 			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
-
+<!--
   <distributionManagement>
     <repository>
       <id>nexus</id>
@@ -86,9 +86,10 @@
       <url>http://54.160.184.39:8081/repository/onlinebookstore-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
-		
+-->		
 
 </project>
+
 
 
 
