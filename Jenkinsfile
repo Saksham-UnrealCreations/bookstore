@@ -6,6 +6,7 @@ pipeline {
         stages {  
        	    stage("git_checkout") {  
            	    steps {  
+                    git branch: "${branchname}", url:
               	    echo "cloning repository" 
               	    echo "repo cloned successfully"  
               	    }
