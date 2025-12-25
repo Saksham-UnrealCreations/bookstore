@@ -6,7 +6,7 @@ pipeline {
         stages {  
        	    stage("git_checkout") {  
            	    steps {  
-                    git branch: "${branchname}", url:
+                    git branch: "${params.branchname}", url: 'https://github.com/Saksham-UnrealCreations/bookstore.git'
               	    echo "cloning repository" 
               	    echo "repo cloned successfully"  
               	    }
