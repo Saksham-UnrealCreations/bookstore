@@ -1,5 +1,5 @@
 pipeline {  
-    agent any {
+    agent any
         parameters {
             choice choices: ['master', 'dev', 'qa'], description: 'select environment', name: 'branchname'
         }
